@@ -87,6 +87,10 @@
     align-self: center !important;
 }
 
+.home .hogares .hogar .btn:hover{
+    color: white;
+}
+
 .home .button-up{
     display: flex;
     justify-content: center;
