@@ -9,9 +9,15 @@ module.exports = {
         res.render("puertoGallo", { title: "Puerto Gallo", imagenes })
     },
     timbu: (req, res) => {
-        res.render("timbu", { title: "Timbu" })
+
+        let imagenes = ["chana.jpg","chana1.jpg","chana2.jpg","chana3.jpg","chana4.jpg","chana5.jpg","chana6.jpg","chana7.jpg","chana8.jpg","chana9.jpg","chana10.jpg","chana11.jpg","chana12.jpg",]
+
+        res.render("timbu", { title: "Timbu", imagenes })
     },
     chana: (req, res) => {
-        res.render("chana", { title: "Chana" })
+
+        let imagenes = ["chana.jpg","chana1.jpg","chana2.jpg","chana3.jpg","chana4.jpg","chana5.jpg","chana6.jpg","chana7.jpg","chana8.jpg","chana9.jpg","chana10.jpg","chana11.jpg","chana12.jpg",]
+
+        res.render("chana", { title: "Chana", imagenes })
     },
 };
